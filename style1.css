@@ -4,21 +4,25 @@
     padding:5px;	
     width: 100% 
 }
+/* Header is used on both Index1 and Arsenal for the title, so that all of the headers are 
+centered, with a certain color */ 
 
 body {
-    background-image: url("http://gettingtothapaper.com/wp-content/uploads/2017/02/Gray-Background-3B9.png");
+    background-image: url("http://wallpapercave.com/wp/QGj5HZS.jpg" );
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    width: ;
-}   
+    width: 100%;
+height: 100%;
+}
+/* This body is used to create the background image */ 
 
 .section {
     text-align: center;
     padding:10px;	 
     color: black; 	 
 }
-
+/* It is used to make the text centered and the color black and then the padding around this class*/ 
 .About {
     text-align: center; 
 }
@@ -36,6 +40,8 @@ body {
   border-top: 4px solid black;
 
 }
+/* There is padding all around this section, the text is centered and the border-top makes a black 
+line above the class */ 
 
 .section2{
   padding-left: 15px;
@@ -45,6 +51,8 @@ body {
   border-top: 4px solid black;
   border-bottom: 4px solid black;
 }
+/* This is the same as section1 however, it has different amounts of padding and has a black line 
+going across the bottom of the section */ 
 
 .section3 {
   text-align: center;
@@ -64,6 +72,7 @@ body {
   padding-bottom: 20px;
   text-align: center;
   border-bottom: 5px solid black;
+  border-top:5px solid black;
 
 }
 
@@ -77,22 +86,24 @@ body {
 
 h2 {
   text-align: center;
-  opacity: 1;
+  opacity: 0.75;
 }
-
-h3 {
-  color: black;
-}
+/* h2 is a standard function and I have made it so that whenever it is used the text is centered and 
+that the text is 75% see through */
 
 li {
     list-style: none;
 
 }
+/* Since lists can have different list types such as bullet points or numbers, so putting the style as 
+none means it doesn't have any list */
 
 .listwidth{
   margin: 0 auto;
   width: 1000px;
 }
+/* The listwidth is used to set a certain range for any lists associated with listwidth, so that the text 
+on the lists don't go all the way to get egde of the page */ 
 
 .li1{
   list-style: disc;
@@ -100,6 +111,8 @@ li {
   font-size: 20; 
   color: black;
 }
+/* As li was set to list-style: none;, I made a class which will allow me to make a list with a style, and
+make the font size a certain size */
 
 .li2{
   list-style: none;
@@ -107,6 +120,8 @@ li {
   font-size: 20; 
   color: black;
 }
+/* This is another type of list I created to make the list centered and the font size 20 */ 
+
 .rand {
     color: black;
     text-align: center;
@@ -114,7 +129,8 @@ li {
 
 }
 
-.footer {	
+
+.footer { 
    position: absolute;
    width:100%;
    height:60px;   /* Height of the footer */
@@ -122,10 +138,8 @@ li {
    color: white;
    text-align: center;
 }
-
-form {
-  padding-top: 20px;
-}
+/* This is used for the footer to make it always stay at the bottom of the page, the actaul size of the 
+footer and the color being white */
 
 /*.row{
   padding-right: 200px;
@@ -133,22 +147,15 @@ form {
   padding-bottom: 15px;
 }*/
 
-.listmargin{
-  
-} 
 
 .imageboard{
-   border-width: 5px;   border-color: red;   border-style: groove;
+   border-width: 5px;   border-color: blue;   border-style: groove;
    height: 300px;
    width: 500px;
+   background-color: white;
 }
-
-.imageboard1{
-   margin-top: 10px;
-   border-width: 5px;   border-color: red;   border-style: groove;
-   height: 300px;
-   width: 800px;
-}
+/* I used this class on an image so that I could set a specifc size and have a border around the image, in
+case, it is red with a groove style, and the border has the width of 5 pixels */
 
 table {
     font-family: arial, sans-serif;
@@ -158,6 +165,8 @@ table {
     background-color: white;
 
 }
+/* This is used for when ever creating a table, so I have set the font to the certain type, a certain size
+and the style of the table */ 
 
 .table {
     font-family: arial, sans-serif;
@@ -167,19 +176,22 @@ table {
     background-color: white;
 
 }
+/* I use this to make the second table larger */
 
 td, th {
     border: 1px solid #dddddd;
-    padding: 8px;
+    padding: 5px;
 }
 
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+/* This makes every row which is a even number a certain background */ 
 
 tr:nth-child(odd) {
   background-color: white;
 }
+/* This makes every row which is a odd number a white background */ 
 
 .h3goals {
   background-color: white;
@@ -190,10 +202,11 @@ tr:nth-child(odd) {
   border-radius: 5px;
 }
 
-.goalsgoals{
+.History{
   margin-left:21.5%;
   margin-right: 21.5%;
   color: black;
+  font-size: 20;
 
 }
 /* How do I create background opacity and not effect the text*/ 
@@ -225,4 +238,20 @@ p {
 .sidebarright{
   float: right; 
   width: 20%;
+}
+
+form{
+  border-top: 4px solid black;
+  font-size: 20;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  margin: 0px;
+
+}
+
+form label{
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 5px;
 }
