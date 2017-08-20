@@ -62,6 +62,9 @@ else if(i=="19"){
 else if(i=="20"){
 	document.getElementById("link20").style.color = "red";
 }
+else if(i=="21"){
+	document.getElementById("link21").style.color = "red";
+}
 }
 
 function textBlack(i){
@@ -129,8 +132,4 @@ else if(i=="19"){
 else if(i=="20"){
 	document.getElementById("link20").style.color = "black";
 }
-}
-
-function validations(){
-	
 }
