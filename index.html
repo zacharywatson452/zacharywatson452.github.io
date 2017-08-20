@@ -1,114 +1,238 @@
+
 <html lang="en-gb">
 
 	<head>
-		<link rel="stylesheet" href="style1.css"> <!-- This links Index1 to the CSS code -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
-		<!-- This links Index1 with the Bootstrap code which is then used to customise the page layout -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><script src="myscripts.js"></script> 
-		<title> Zachary Watson </title> <!-- This makes Zachary Watson show up on the tab bar -->
+		<link rel="stylesheet" href="style1.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title> Salesforce </title>
 	</head>
 	<body>
-	
 		<div class="header">
-			<h1> <font face="Broadway"> Zachary Watson </font></h1>
+			<h1> <font face="Broadway"> <!-- CHanges the font --> Salesforce </font></h1>
 		</div>
 		<div class="section">
-			<section id="Where I work">
-				<a style ="text-decoration: none;" href="http://www.jobscience.com/"><h2 style="color: black" id="link" onmouseover="textRed(0)" onmouseout="textBlack(0)">Where I work!</h2></a> <!-- This is a link to the website of where I work, the style ="text-decoration: none;" is used so that when you hover over the link -->
 				<div class ="container">
 					<ul class ="row"><li class ="col-xs-4"> 
-						<a style ="text-decoration: none;" href="#About"> <h3 style="color: black" id="link1" onmouseover="textRed(1)" onmouseout="textBlack(1)">About</h3></a> <!-- When clicking on this link it takes you to the About section of the page -->
+						<a style ="text-decoration: none;" href="Index.html#About"> <h3 style="color: black" id="link11" onmouseover="textRed(11)" onmouseout="textBlack(11)">About</h3></a> <!-- This link to the About section on the Index1 page -->
 					</li>
 					<li class = "col-xs-4">
-						<a style ="text-decoration: none;" href="#Work"><h3 style="color: black" id="link2" onmouseover="textRed(2)" onmouseout="textBlack(2)">Work</h3></a> <!-- When clicking on this link it takes you to the Work section of the page -->
+						<a style ="text-decoration: none;" href="Index.html#Work"><h3 style="color: black" id="link12" onmouseover="textRed(12)" onmouseout="textBlack(12)">Work</h3></a>
 					</li>
 					<li class = "col-xs-4">
-						<a style ="text-decoration: none;" href="#Contact"><h3 style="color: black" id="link3" onmouseover="textRed(3)" onmouseout="textBlack(3)">Contact</h3></a> <!-- When clicking on this link it takes you to the Contact details of the page -->
+						<a style ="text-decoration: none;" href="#Contact"><h3 style="color: black" id="link13" onmouseover="textRed(13)" onmouseout="textBlack(13)">Contact</h3></a>
 					</li> </ul>
 				</div>
-			</section>
+				<div class ="container">
+				<ul class ="row"><li class = "col-xs-6">
+					<a style ="text-decoration: none;" href="#Salesforce History"><h3 style="color: black" id="link14" onmouseover="textRed(14)" onmouseout="textBlack(14)">Salesforce History</h3></a> <!--When clicking on Salesforce History it takes you to the History section of the page -->
+				</li>
+				<li class="col-xs-6">
+					<a style ="text-decoration: none;" href="#Salesforce Certifications"><h3 style="color: black" id="link15" onmouseover="textRed(15)" onmouseout="textBlack(15)">Salesforce Certification</h3></a>
+				</li>
+				</ul></div>
 		</div>
-		<section id = "About" class = "section1">
-			<h2><b><u>About</u></b></h2>
-			<p class="rand"><b>Hello, my name is Zachary Watson. I am currently working at Jobscience as an apprentice. 
-			<br> <!-- Br is used as a break in the text, it creates a new line of text -->
-			<u>EDUCTION</u> 
-			<br>Primary School:<a href="http://stmaryrc.org.uk/" style="color: black"><u id="link4" onmouseover="textRed(4)" onmouseout="textBlack(4)">St Marys</u></a> <!-- This is a link to the website of my primary school, and also has Java Script which make it when you hover over the link it turns red and when you don't it turns back to black -->
-			<br>Secondary School:<a href="http://stmcomprehensive.org/" style="color: black"><u id="link5" onmouseover="textRed(5)" onmouseout="textBlack(5)">St Thomas More Comprehensive School</u></a>
-			<br> I was at this school between 2009 - 2014, during which I was a part of the football and running team, represented my school and county in cross country and 1500m.
-			<br> I studied subjects like Maths, RE, Biology, Chemistry, Physics, Geography, Art, English Lit&Lang, French and Human Health & Physiology. All ranging from A - C grades. 
-			<br> Sixth Form: <a href="http://www.bwsgirls.org/" style="color: black"><u id="link6" onmouseover="textRed(6)" onmouseout="textBlack(6)"> Bullers Wood</u></a>    <br>Here I studied A levels, in year 12 I studied Biology, Maths, Economics and Computing. After the first year I dropped Computing and finished with a B in Biology and 
-			<br> C's in Maths & Economics. 
-			</b></p>
-			<div class ="container"> 
-			<div class = "row"> <!-- The classes "container" and "row" are in the bootstrap code, they are used to create a section where you can set where information is set along the row -->
-				<div class = "col-sm-4 col-xs-12 col-lg-3 col-lg-offset-1"> <!-- the container is made up of 12 sections, so when the web=page for example, is small, this image will be on it own row as it is set to 12 -->
-					<img src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDOtUw-AVcDVXBU6JhwnuqeFYo8-9VUMLS1LcDYRciLTARRU8m" alt = "St Marys" width="100%" height= "90">
+		<div class= "section5">
+		<div class ="container">
+			<div class = "row">
+				<div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<img class = "imageboard" src = "https://static1.squarespace.com/static/54ed1f87e4b08fb3c1ed3a76/t/58dcc4651e5b6cf38584c062/1490863205520/tb_astro.png?format=500w" alt = "Present" width = "100%" hieght = "200">
+			</div>
+				<div class = "col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<img class = "imageboard" src = "http://cloudcoach.com/wp-content/uploads/2016/09/Salesforce_Einstein.png" alt = "Past" width = "100%" height ="290">
 				</div>
-				<div class = "col-sm-4 col-xs-12 col-lg-4">
-					<img src = "https://www.wisepay.co.uk/store/images/headers/st_thomas_more_catholic_comp_eltham_top_bar.jpg" alt = "St Thomas More" width ="100%" height= "90">
-					</div>
-				<div class = "col-sm-4 col-xs-12 col-lg-3">
-					<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoFyS5s7YMd19_sp5CBfeNc7ydXASZFp3waVNRyyWjsnKdkMtT5g" alt = "Bullers Wood" width = "100%" height="90">
-				</div>	
 			</div>
-			</div>
-			<h2><b><u>Arsenal</u></b></h2> <!-- This is a heading so I used a h2 -->
-			<div class="rand">
-			<p> <b>A passion of mine is Football. I support Arsenal Football Club.</a> 
-			<div>
-			<img src="http://e1.365dm.com/16/03/16-9/20/arsenal-premier-league-the-invincibles_3424873.jpg?20160302151226" width ="40%"> <!-- This is how to put a image onto HTML -->
+		</div>	
+		<br><br><br> 
+		<section id = "Salesforce History">
+		<h2 class="h3goals" align="center"><b>History</b></h2><br><br>
+		<div class="History">
+		<b> 
+		Salesforce started life in March, 1999 contained out of a one bedroom apartment next to Marc Benioff’s house, atop Telegraph Hill, San Francisco. The three men that started working in this tiny office along with Marc? Parker Harris, Frank Dominguez and Dave Moellenhoff. Salesforce runs entirely in the cloud. This means that Salesforce is online, there is no software/hardware. No expensive setup costs, maintances and can work from any devices as long as it has an internet connection setup. 
+
+		Salesforce is a Customer Relationship Management (CRM), which is a strategy for managing all your company's relationships and interactions with your customers and potential customers. It helps you improve your profitability.
+		</div><br><br>
+		<h2><b><u> Top 10 CRMs in 2015 </u></b></h2>
+		<table align="center"> <!-- How the table is centered -->
+		  	<tr> <!-- This is for each row -->
+		  		<th>No.</th> <!-- th is each value in each cell -->
+			    <th>Name</th>
+			    <th>Yearly Growth</th>
+			    <th>2015 Market Share</th>
+			  </tr>
+			  <tr>
+			  	<td> 1 </td>
+			    <td>Saleforce</td>
+			    <td>21%</td>
+			    <td>21%</td>
+			  </tr>
+			  <tr>
+			  	<td> 2 </td>
+			    <td>Oracle</td>
+			    <td>3%</td>
+			    <td>6%</td>
+			  </tr>
+			  <tr>
+			  	<td> 3 </td>
+			    <td>SAP</td>
+			    <td>23%</td>
+			    <td>5%</td>
+			  </tr>
+			  <tr>
+			  	<td> 4 </td>
+			    <td>Adobe Systems</td>
+			    <td>16%</td>
+			    <td>4%</td>
+			  </tr>
+			  <tr>
+			  	<td> 5 </td>
+			    <td>Microsoft</td>
+			    <td>-5%</td>
+			    <td>4%</td>
+			  </tr>
+			  <tr>
+			  	<td> 6 </td>
+			    <td>Genesys Telecommunications <br>Laboratories</td>
+			    <td>7%</td>
+			    <td>3%</td>
+			  </tr>
+			  <tr>
+			  	<td> 7 </td>
+			    <td>Verint Systems INC.</td>
+			    <td>15%</td>
+			    <td>3%</td>
+			  </tr>
+			  <tr>
+			  	<td> 8 </td>
+			    <td>Nice Systems</td>
+			    <td>8%</td>
+			    <td>3%</td>
+			  </tr>
+			  <tr>
+			  	<td> 9 </td>
+			    <td>IMS Health</td>
+			    <td>1%</td>
+			    <td>1%</td>
+			  </tr>
+			  <tr>
+			  	<td> 10 </td>
+			    <td>Constant Contact</td>
+			    <td>10%</td>
+			    <td>1%</td>
+			  </tr>
+			  <tr>
+			  	<td> # </td>
+			    <td>Other</td>
+			    <td>-8%</td>
+			    <td>49%</td>
+			  </tr>
+			  <tr>
+			  	<td> # </td>
+			    <td>Total</td>
+			    <td>2%</td>
+			    <td>100%</td>
+			  </tr>
+		</table>
+		<br>
+		<br>
+		<div class="History">
+		Salesforce has 3 releases each year, the most recent being Salesforce Winter'17 and soon Salesforce Spring'17. This constant upgrading has help make Salesforce (Sales Cloud) the world's largerst CRM System. 
+		</div>
+		<div class="records" style="text-align: center;">
+		<ul><li class="li2"><b style="font-size: 25">2005- App Exchange: </b>
+		<br><b>AppExchange apps are customized for Salesforce and extend Salesforce to every department and every industry. It's a proven ecosystem of apps with millions of installs and thousands of customer reviews to help you find the best match for your business.</b></li>
+		<br><li class="li2"><b style="font-size: 25">2006- Apex: </b>
+		<br><b>An object oriented programmings language for Salesforce Developers.</b></li>
+		<br><li class="li2"><b style="font-size: 25">2007- VisualForce: </b>
+		<br><b>Framework which allows developers to build customer user interfaces.</b></li>
+		<br><li class="li2"><b style="font-size: 25">2008- Force.com: </b>
+		<br><b>Used the simplify the development and deployment of cloud based applications and websites.</b></li>
+		<br><li class="li2"><b style="font-size: 25">2009- Chatter: </b>
+		<br><b>Connects every employee tofiles,charts and able to interact with other users in your organisation.</b></li>
+		<br><li class="li2"><b style="font-size: 25">2010- Database.com: </b>
+		<br><b>Enables users to focus on building apps instead of managing the datavase.</b></li>
+		<br><li class="li2"><b style="font-size: 25">2013- Salesforce1: </b>
+		<br><b>Allows a user to use Salesforce on their smart phone, so they are able to work on the move.</b></li>
+		<br><li class="li2"><b style="font-size: 25">2016- Lightning: </b>
+		<br><b>Lightning includes the Lightning Component Framework and some exciting tools for developers. Lightning makes it easier to build responsive applications for any device.</b></li>
+		<br><li class="li2"><b style="font-size: 25">Upcoming- Einstein</b>
+		<br><b>Einstein is coming out in the Spring '17 release. Advanced AI capabilities into sales, service, marketing and more, empowering companies to deliver more personalized and predictive customer experiences </b></li>
+		</ul>
+		<img src="EinsteinSalesforce.jpg" width="50%" height="50%" onmouseover="this.src='Unit30Assignment2Pic1.jpg'" onmouseout="this.src='EinsteinSalesforce.jpg'"> <!-- When you hover over the image, the image becomes Unit30Assignment2Pic1.jpg and then when you go of the image it returns back the the orignal EinsteinSalesforce.jpg image -->
+		<h2><b><u> Hover Over Me!!! </u></b></h2>
 		</section>
-		<section id = "Work" class = "section2">
-			<h2><b><u>Work</u></b></h2>
-			<p class="rand"><b> Customer Success at Jobscience where I deal with administrative requests and trouble shooting of Salesforce issues. <br> Currently working towards Salesforce 201 (admin) and salesforce 401 (developer) certifications as part of this role. <br> Daily roles and responsibilities: </b></p>
-			<div class = "listwidth">
-			<ul><b><li class = "li1"> <!-- This is a list --> 
-				Main point of contact for customer questions through Live Chat and Emails
-			</li>
-			<li class = "li1">
-				Salesforce administration and technical support
-			</li>
-			<li class = "li1">
-				Explain details, use case, and steps to reproduce thoroughly in “Salesforce Cases”
-			</li>
-			<li class = "li1">	
-				Leverage Knowledge database, User Guide, and other resources to resolve Cases
-			</li>
-			<li class = "li1">	
-				Updating Knowledge database with new resolutions 
-			</li>
-			<li class = "li1">	
-				Running system upgrades, performing third party integrations and setups
-			</li>
-			<li class = "li1">	
-				Performing system smoke tests
-			</li>
-			<li class = "li1">	
-				Ensuring customer satisfaction with resolutions 
-			</li></b></ul>
-			<p class="rand"><b> In my job, I have many responsibilties and I always have to make sure I am responding to customers <br>in a certain way as I am respresenting Jobscience and always have to be aware of this. As if I do a good job, then the customers are more likely do renewl their contracts. When taking Live chats, the customer wants a quick solutions so I have to be able to trouble shoot quickly and get an understanding of what the customer means and solve it for them, but if I can't solve it straight away, I get all the information I need and then I would email them back later on in the day.</b><br><br>
-			<a href="arsenal.html" style="color: black"><u id="link7" onmouseover="textRed(7)" onmouseout="textBlack(7)">Click Here</u></a> <!-- This is a link to the other web page --> To find out more information about Salesforce
-			</div>
+		</div>
+		<div class="section6">
+		<section id = "Salesforce Certifications">
+		<img class="sidebar" src="http://www.pros.com/wp-content/uploads/2015/12/logo-salesforce-svg.svg">
+		<img class="sidebarright" src="http://www.pros.com/wp-content/uploads/2015/12/logo-salesforce-svg.svg"> <!-- These are used to has side bars --> 
+		<h2 class="h3goals" align="center">Salesforce Certifications</h2>
+		<div class ="main">
+		<h3><b><u>Salesforce Exams</b></u></h3>
+				<table class="table" align="center">
+		  	<tr>
+			    <th>Certification Exam</th>
+			    <th>Registration Fee</th>
+			    <th>Retake Fee</th>
+			  </tr>
+			  <tr>
+			    <td>Salesforce Certified Administrator</td>
+			    <td>USD 200</td>
+			    <td>USD 100</td>
+			  </tr>
+			  <tr>
+			    <td>Salesforce Certified Advanced Administrator</td>
+			    <td>USD 200</td>
+			    <td>USD 100</td>
+			  </tr>
+			  <tr>
+			    <td>Salesforce Certified Platform App Builder</td>
+			    <td>USD 200</td>
+			    <td>USD 100</td>
+			  </tr>
+			  <tr>
+			    <td>Salesforce Certified Platform Developer I</td>
+			    <td>USD 200</td>
+			    <td>USD 100</td>
+			  </tr>
+			  <tr>
+			    <td>Salesforce Certified Platform Developer II – Multiple Choice</td>
+			    <td>USD 400</td>
+			    <td>USD 200</td>
+			  </tr>
+			  <tr>
+			    <td>Salesforce Certified Platform Developer II – Programming Assignment and Essay</td>
+			    <td>USD 0</td>
+			    <td>USD 0</td>
+			  </tr>
+		</table>
+		</div>
 		</section>
-		<div id="form"></div>
+		</div>
 		<div class="section3">
 			<div class ="container">
 				<ul class ="row"><li class ="col-xs-4"> 
-					<a style ="text-decoration: none;" href="#About"> <h3 style="color: black" id="link8" onmouseover="textRed(8)" onmouseout="textBlack(8)">About</h3></a>
+					<a style ="text-decoration: none;" href="Index.html#About"> <h3 style="color: black" id="link16" onmouseover="textRed(16)" onmouseout="textBlack(16)">About</h3></a>
 				</li>
 				<li class = "col-xs-4">
-					<a style ="text-decoration: none;" href="#Work"> <h3 style="color: black" id="link9" onmouseover="textRed(9)" onmouseout="textBlack(9)">Work</h3></a>
+					<a style ="text-decoration: none;"href="Index.html#Work"> <h3 style="color: black" id="link17" onmouseover="textRed(17)" onmouseout="textBlack(17)">Work</h3></a>
 				</li>
 				<li class = "col-xs-4">
-					<a style ="text-decoration: none;" href="#Contact"> <h3 style="color: black" id="link10" onmouseover="textRed(10)" onmouseout="textBlack(10)">Contact</h3></a>
-				</li> </ul>
-			</div>
-		</div>
+					<a style ="text-decoration: none;" href="#Contact"> <h3 style="color: black" id="link18" onmouseover="textRed(18)" onmouseout="textBlack(18)">Contact</h3></a>
+				</li> </ul> </div>
+			<div class="container">	
+				<ul class="row"><li class="col-xs-6">
+					<a style ="text-decoration: none;" href="#Salesforce History"> <h3 style="color: black" id="link19" onmouseover="textRed(19)" onmouseout="textBlack(19)">Salesforce History</h3></a>
+				</li>
+				<li class="col-xs-6">
+					<a style ="text-decoration: none;" href="#Salesforce Competitors"> <h3 style="color: black" id="link20" onmouseover="textRed(20)" onmouseout="textBlack(20)">Salesforce Certifications</h3>
+				</li>
+				</ul>
+				</div>
 		<section id = "Contact" class="Footer">
-			<li><a href="Contact.html" style="color: white">Contact Form</a> </li>
+			<li> <a href="Contact.html" style="color: white">Contact Form</a> </li>
 			<ul class ="row"> 
-				<a style ="text-decoration: none;"class = "col-xs-4" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffetch%2FimportAndInviteEntry%3Ftrk%3Dnav_utilities_add_connx"> <p style="color: white"> <i class="fa fa-linkedin-square" aria-hidden="true"> <!-- This is used to create the logo, such as the LinkedIn logo --> </i> LinkedIn</p></a>
+				<a style ="text-decoration: none;" class = "col-xs-4" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffetch%2FimportAndInviteEntry%3Ftrk%3Dnav_utilities_add_connx"> <p style="color: white"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</p></a>
 				<a style ="text-decoration: none;" class = "col-xs-4" href="https://www.instagram.com/"><p style="color: white"> <i class="fa fa-instagram" aria-hidden="true"> </i> Instagram </p></a>
 				<a style ="text-decoration: none;" class = "col-xs-4" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffetch%2FimportAndInviteEntry%3Ftrk%3Dnav_utilities_add_connx"> <p style="color: white"><i class="fa fa-youtube" aria-hidden="true"></i> Youtbe </p></a> 
 			</ul>
