@@ -1,0 +1,37 @@
+<html>
+    <head>
+		<link rel="stylesheet" href="style1.css"> <!-- This links Index1 to the CSS code -->
+        <title>Contact</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Contact</h2>
+        <form onsubmit="return validatePasswords(this);">
+    Name:
+    <br/>
+    <input type="text" />
+    <br/>
+    Email:
+    <br/>
+    <input type="text" name="email"/>
+    <br/>
+    Confirm Email:
+    <br/>
+    <input type="email" name="confirm"/>
+    <br/><br>
+    <input type="submit" name="register" value="Register">
+    &nbsp;
+    <a href="Index1.html">Home</a>
+<script>
+    function validatePasswords(form) {
+        if (form.email.value !== form.confirm.value) {
+            alert("Emails do not match");
+            return false;
+        }
+        return true;
+    }
+	 
+</script>
+</form>
+</html>
+
